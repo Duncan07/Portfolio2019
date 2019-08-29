@@ -1,1 +1,10 @@
-.proof{border:1px solid red}
+h1, div,section, article, ul{outline:1px solid red; background: rgba(255,0,0,0.3);}
+*{padding:10px}
+nav{font-size:20px; font-weight: bold;}
+h2, div{text-align: center;}
+  ul{text-indent: 20px}
+li{text-align: left}
+.margin{
+  margin-left: auto;
+  margin-right: auto;
+}
