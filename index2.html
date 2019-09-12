@@ -19,8 +19,8 @@
       color: white;
       }
     nav {
-      float: right;
-      width: 50%;
+      float: left;
+      /* width: 200px; */
       background: #ccc;
       padding: 20px;
     }
@@ -50,12 +50,18 @@
   <body>
 
   <section>
-    <nav>
-      <ul>
+    <div class="grid-container">
+      <div class="grid-x">
+
+    <nav class="margin">
+      <ul class="menu class="cell small-12 medium-12 large-12"">
         <li><a href="/work.html">Projects</a></li>
-        <li><a href="/about.html">About</a></li>
+        <li><a href="/about.html">About me</a></li>
       </ul>
     </nav>
+
+</div>
+</div>
 
   <article>
     <h1>Hi, I'm Scott and I am a Web Designer</h1>
@@ -64,46 +70,6 @@
   </article>
 </section>
 
-    <div class="grid-container">
-      <div class="grid-x">
-
-    <nav class="margin">
-      <ul class="menu class="cell small-3 medium-6 large-12"">
-        <li><a href="/work.html">Projects</a></li>
-        <li><a href="/about.html">About me</a></li>
-      </ul>
-    </nav>
-
-  <div class="cell small-12">Attention!</div>
-    <div class="cell small-12">Is this for me?</div>
-      <div class="cell small-12">Does it work?
-        <ul class="no-bullets">
-          <li>Does it work?</li>
-          <li>Does it work?</li>
-          <li>Does it work?</li>
-        </ul>
-      </div>
-
-        <div class="cell small-12">What is it?</div>
-
-
-<article class="grid-x">
-  <section class="cell small-3">
-    Attention
-  </section>
-  <section class="cell small-3">
-    Is this for me?
-  </section>
-  <section class="cell small-3">
-    Does it work?
-  </section>
-  <section class="cell small-3">
-    Is this for me?
-  </section>
-</article>
-
-</div>
-</div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
