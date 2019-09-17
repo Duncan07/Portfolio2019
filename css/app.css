@@ -8,3 +8,192 @@ li{text-align: left}
   margin-left: auto;
   margin-right: auto;
 } */
+
+body {
+  margin: 0;
+  font-family: 'Pacifico', cursive, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e5e5ff;
+}
+
+.topnav a {
+  float: left;
+  color: #585858;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.box1 {
+  background-color: #e5e5ff;
+  width: auto;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left:10%;
+  padding-right:10%;
+  text-align: center;
+  margin-bottom: -10.6%;
+  color:#6666ff;
+}
+.box1work {
+  background-color: #e5e5ff;
+  width: auto;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left:10%;
+  padding-right:10%;
+  text-align: center;
+  color:#6666ff;
+}
+.box1work a:hover{
+  color:white;
+}
+.box1about {
+  background-color: #e5e5ff;
+  width: auto;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 35.8%;
+  padding-left:10%;
+  padding-right:5%;
+  text-align: center;
+  font-size: 3.5vw;
+  margin-bottom: -1%;
+  color:#6666ff;
+}
+
+.textBox {
+  float:left;
+  width:50%
+
+}
+.box2index {
+  background-color: #9999ff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: white;
+}
+.box2 {
+  background-color: #9999ff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: white;
+}
+.box2about {
+  background-color: #9999ff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+.box2work {
+  background-color: #9999ff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: white;
+}
+.box2work a:hover{
+  color:white;
+}
+.box3 {
+  background-color: #7f7fff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 75%;
+  margin-top: -10%;
+  padding-left:15%;
+    padding-right:15%;
+  text-align: center;
+  color: white;
+}
+
+.talents {
+  width:60%;
+  float:left;
+  text-align: left;
+}
+.stars {
+  width:40%;
+  float:left;
+}
+
+.box4 {
+  background-color: #9999ff;
+  width: auto;
+  height: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left:15%;
+    padding-right:15%;
+  text-align: center;
+  color: white;
+}
+
+.box5 {
+  background-color: #ccccff;
+  width: auto;
+  height: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left:15%;
+    padding-right:15%;
+  text-align: center;
+  color: grey;
+}
+
+.footer1{
+  float:left;
+  width:33%;
+  font-size: 18px;
+  color: #585858;
+}
+
+.footer1 a:hover {
+  color: white;
+}
+
+.contactName {
+  color: white;
+  font-size:22px;
+}
