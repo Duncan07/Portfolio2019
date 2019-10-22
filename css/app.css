@@ -42,8 +42,18 @@ body {
   color:#6666ff;
 }
 .miniMe {
-  width: 33vw;
-  height: 30vw;
+  width: 1000px;
+  height: 750px;
+  background: url('../images/MiniMeSpriteSheet.png')  left center;
+  background-repeat: no-repeat;
+  /* background-size: 10000px; */
+  animation: play 2s steps(10) infinite;
+  /* animation-name: wave;
+animation-duration: 4s;
+animation-iteration-count:infinite; */
+}
+@keyframes play{
+  50% { background-position: -11000px; }
 }
 .box1work {
   background-color: #e5e5ff;
