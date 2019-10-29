@@ -85,19 +85,50 @@ body {
   height: auto;
   padding-top: 1em;
   padding-bottom: 35.8%;
-  padding-left:10%;
-  padding-right:5%;
   text-align: center;
   font-size: 3.3vw;
   margin-bottom: -1%;
   color:#6666ff;
 }
-
-.textBox {
-  float:left;
-  width:50%
-
+.portraitButton{
+  position:relative;
+  height: 200px;
+  width: 150px;
+  background:blue;
 }
+.portrait {
+  position:relative;
+  height: 200px;
+  width: 150px;
+  background: black;
+}
+@keyframes turn{
+  0 {}
+  50% {transform: rotateY(90deg) skewY(30deg)}
+  100% {transform: rotateY(180deg)}
+}
+.portraitButton:hover .portrait{
+  /* transform:rotateY(180deg) skewY(30deg);
+    transition:all 1s linear; */
+      animation: turn 1s steps(20);
+      background:yellow;
+}
+.textBox {
+  position:absolute;
+  opacity:1;
+  left:500px;
+  transition: left 1s linear;
+  font-size: 12px;
+  color:blue;
+}
+.portraitButton:hover .textBox{
+  opacity:0;
+  left:0px;
+}
+/* .portrait:active{
+  transform:rotateY(80deg);
+  transition:all 1s linear;
+} */
 .box2index {
   background-color: #9999ff;
   padding-top: 10%;
