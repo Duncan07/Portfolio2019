@@ -1,5 +1,20 @@
 
-h1, h2, h3 {font-family: 'Pacifico';}
+h1 {
+  font-family: 'Pacifico';
+  font-size: 6vw;
+}
+h2, h3 {
+  font-family: 'Pacifico';
+  font-size: 5vw;
+}
+h3 {
+  font-family: 'Pacifico';
+  font-size: 4vw;
+}
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
 
 body {
   margin: 0;
@@ -18,7 +33,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 1.2em;
 }
 
 .topnav a:hover {
@@ -42,18 +57,17 @@ body {
   color:#6666ff;
 }
 .miniMe {
-  width: 1000px;
-  height: 750px;
-  background: url('../images/MiniMeSpriteSheet.png')  left center;
+  width: 110px;
+  height: 75px;
+  background: url('../images/MiniMeSpriteSheet3.png') left center;
   background-repeat: no-repeat;
   /* background-size: 10000px; */
-  animation: play 2s steps(10) infinite;
-  /* animation-name: wave;
-animation-duration: 4s;
-animation-iteration-count:infinite; */
+  animation: play 1.2s steps(9) infinite;
 }
 @keyframes play{
-  50% { background-position: -11000px; }
+  0 {background-position: 0;}
+  50% {background-position: -990px;}
+  100% {background-position: 0;}
 }
 .box1work {
   background-color: #e5e5ff;
@@ -86,7 +100,6 @@ animation-iteration-count:infinite; */
 }
 .box2index {
   background-color: #9999ff;
-  margin-top: -1%;
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 10%;
