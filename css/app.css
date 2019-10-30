@@ -1,16 +1,18 @@
-
 h1 {
   font-family: 'Pacifico';
   font-size: 6vw;
 }
+
 h2, h3 {
   font-family: 'Pacifico';
   font-size: 5vw;
 }
+
 h3 {
   font-family: 'Pacifico';
   font-size: 4vw;
 }
+
 p {
   font-size: 14px;
   line-height: 18px;
@@ -18,7 +20,7 @@ p {
 
 body {
   margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 
@@ -54,8 +56,9 @@ body {
   width: auto;
   height: auto;
   text-align: center;
-  color:#6666ff;
+  color: #6666ff;
 }
+
 .miniMe {
   width: 110px;
   height: 75px;
@@ -64,21 +67,84 @@ body {
   /* background-size: 10000px; */
   animation: play 1.2s steps(9) infinite;
 }
-@keyframes play{
-  0 {background-position: 0;}
-  50% {background-position: -990px;}
-  100% {background-position: 0;}
+
+@keyframes play {
+  0 {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: -990px;
+  }
+
+  100% {
+    background-position: 0;
+  }
 }
+
+.workImage2 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  height: 80%;
+  width: 80%;
+}
+
 .box1work {
   background-color: #e5e5ff;
   width: auto;
   height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
-  color:#6666ff;
+  color: #6666ff;
 }
-.box1work a:hover{
-  color:white;
+.box1work2{
+  border: 1px solid red;
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
+  width:auto;
+  overflow: hidden;
 }
+.workImage1 {
+  z-index: -1;
+  height:auto;
+  width:auto;
+}
+
+.workImage1info {
+  height:5em;
+  width:16em;
+  position: absolute;
+  background: black;
+  z-index: 0;
+  opacity: 0;
+  font-size: 3vw;
+  text-align: center;
+  top:50vw;
+  left: 40vw;
+}
+
+.workImage1:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  opacity:0.5;
+}
+
+.box1work2:hover .workImage1info {
+  opacity: 1;
+  transition: left 0.5s linear, top 0.5s linear, opacity 1s linear;
+  top:35vw;
+  left: 25vw;
+}
+
+.box1work a:hover {
+  color: white;
+}
+
 .box1about {
   background-color: #e5e5ff;
   width: auto;
@@ -88,43 +154,67 @@ body {
   text-align: center;
   font-size: 3.3vw;
   margin-bottom: -1%;
-  color:#6666ff;
+  color: #6666ff;
 }
-.portraitButton{
-  position:relative;
+
+.portraitButton1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   height: 200px;
   width: 150px;
-  background:blue;
+  background: grey;
 }
+
+.portraitButton2 {
+  position: relative;
+  height: 200px;
+  width: 150px;
+  background: blue;
+}
+
 .portrait {
-  position:relative;
+  position: relative;
   height: 200px;
   width: 150px;
   background: black;
 }
-@keyframes turn{
+
+@keyframes turn {
   0 {}
-  50% {transform: rotateY(90deg) skewY(30deg)}
-  100% {transform: rotateY(180deg)}
+
+  50% {
+    transform: rotateY(90deg) skewY(30deg)
+  }
+
+  100% {
+    transform: rotateY(180deg)
+  }
 }
-.portraitButton:hover .portrait{
+
+.portraitButton2:hover .portrait {
   /* transform:rotateY(180deg) skewY(30deg);
     transition:all 1s linear; */
-      animation: turn 1s steps(20);
-      background:yellow;
+  animation: turn 1s steps(20);
+  background: yellow;
 }
+
 .textBox {
-  position:absolute;
-  opacity:1;
-  left:500px;
-  transition: left 1s linear;
-  font-size: 12px;
-  color:blue;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  color: blue;
 }
-.portraitButton:hover .textBox{
-  opacity:0;
-  left:0px;
+
+.portraitButton2:hover .textBox {
+  opacity: 1;
+  left: 0px;
+    transition: all 1s linear;
 }
+
 /* .portrait:active{
   transform:rotateY(80deg);
   transition:all 1s linear;
@@ -138,11 +228,13 @@ body {
   text-align: center;
   color: white;
 }
+
 .icons {
-  width:15vw;
-  height:15vw;
-  padding:1%;
+  width: 15vw;
+  height: 15vw;
+  padding: 1%;
 }
+
 .box2about {
   background-color: #9999ff;
   width: auto;
@@ -155,47 +247,49 @@ body {
   color: white;
   font-size: 12px;
 }
+
 .box2work {
   background-color: #9999ff;
   width: auto;
-  height: 50%;
-  padding-top: 10%;
-  padding-bottom: 7%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   color: white;
 }
-.box2work a:hover{
-  color:white;
+
+.box2work a:hover {
+  color: white;
 }
+
 .box3 {
   background-color: #7f7fff;
   padding-top: 10%;
   padding-bottom: 2em;
-  padding-left:15%;
-  padding-right:15%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   color: white;
-  float:left;
+  float: left;
 }
-.talentsBox{
+
+.talentsBox {
   background-color: #9999ff;
-  padding-top:0.3em;
-  padding-bottom:7vw;
-  padding-left:5%;
-  padding-right:5%;
+  padding-top: 0.3em;
+  padding-bottom: 7vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .talents {
-  width:60%;
-  float:left;
+  width: 60%;
+  float: left;
   text-align: left;
-  font-family:Arial;
+  font-family: Arial;
 }
+
 .stars {
-  width:40%;
-  float:left;
+  width: 40%;
+  float: left;
 }
 
 .box4 {
@@ -203,26 +297,26 @@ body {
   width: auto;
   padding-top: 10%;
   padding-bottom: 10%;
-  padding-left:15%;
-  padding-right:15%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   color: white;
-  float:left;
+  float: left;
 }
 
 .footer {
   background-color: #ccccff;
   padding-bottom: 1vw;
-  padding-left:15%;
-    padding-right:15%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   color: grey;
 }
 
-.footer1{
-  padding-top:10%;
-  float:left;
-  width:33%;
+.footer1 {
+  padding-top: 10%;
+  float: left;
+  width: 33%;
   font-size: 18px;
   color: #585858;
 }
@@ -233,5 +327,5 @@ body {
 
 .contactName {
   color: white;
-  font-size:18px;
+  font-size: 18px;
 }
