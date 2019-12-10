@@ -20,8 +20,8 @@
   <div class="topnav">
     <div class="topnav-right">
           <a href="/index.html">Home</a>
-      <a href="/work.md">Work</a>
-      <a href="/about.md">About</a>
+      <a href="/work.html">Work</a>
+      <a href="/about.html">About</a>
       <a href="">Pizza</a>
       <a href="https://duncan07.github.io/Long-Scrolling-Website/">World</a>
     </div>
